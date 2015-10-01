@@ -16,3 +16,16 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.nav {
+    color: #54C9ED;
+    text-decoration: none;
+}
+
+.nav li {
+    list-style: none;   
+}
+
+.nav a {
+    text-decoration: none;
+}
