@@ -103,7 +103,8 @@ a:active {
 .img-1-4 {
     margin: auto;
     padding: 1em; 
-    cursor: pointer; 
+    cursor: pointer;
+
 }
 
 .circle {
@@ -116,6 +117,7 @@ a:active {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .7);
     background: url(../img/orange-and-teal-color-scheme.png) no-repeat;
     
 }
@@ -132,7 +134,4 @@ a:active {
     margin: auto;
     background-color: #fff;
 }
-
-
-
-
+s
