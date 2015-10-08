@@ -133,5 +133,24 @@ a:active {
     width: 90%;
     margin: auto;
     background-color: #fff;
+    color: #707A83;
 }
-s
+
+.sub {
+    text-align: center;
+    background: #54C9ED;
+    margin: auto;
+    height: 3em;
+    color: #fff;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .7);
+}
+
+.icons {
+    max-width: 6em;
+    max-height: 6em;
+    position: relative;
+    
+    margin: auto;
+    cursor: pointer;
+
+}
