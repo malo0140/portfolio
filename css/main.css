@@ -32,7 +32,7 @@ body {
 h1 {
     text-align: center;
     padding-left: 1em;
-    padding-top: 2em;  
+    padding-top: 1.5em;  
 }
 
 p {
@@ -112,7 +112,7 @@ a:active {
     top: 10em;
     margin: auto;
     float: center;
-    left: 5em;
+    left: 5.5em;
     
     display: block;
     
@@ -160,4 +160,14 @@ a:active {
 
 .social {
     padding: 5px;
+}
+
+.works {
+    width: 100%;
+    padding: 4em;
+    margin: auto;
+
+    
+    min-height: 500px;
+    
 }
