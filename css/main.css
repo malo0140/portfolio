@@ -32,7 +32,7 @@ body {
 h1 {
     text-align: center;
     padding-left: 1em;
-    padding-top: 1.5em;  
+    padding-top: 2em;  
 }
 
 p {
@@ -62,7 +62,7 @@ p {
 
 a:hover, 
 a:active {
- outline: none;   
+    outline: none;   
 }
 
 .nav {
@@ -109,6 +109,7 @@ a:active {
 }
 
 .circle {
+    top: 10em;
     margin: auto;
     float: center;
     left: 5em;
@@ -130,7 +131,7 @@ a:active {
 }
 
 .info {
-    height: 50vh;
+    height: 60vh;
     width: 90%;
     margin: auto;
     background-color: #fff;
