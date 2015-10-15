@@ -131,9 +131,10 @@ a:active {
 }
 
 .info {
-    height: 60vh;
+    height: 70vh;
     width: 90%;
     margin: auto;
+    padding: 6em;
     background-color: #fff;
     color: #707A83;
 }
