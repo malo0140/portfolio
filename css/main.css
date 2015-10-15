@@ -146,11 +146,15 @@ a:active {
 }
 
 .icons {
-    max-width: 6em;
-    max-height: 6em;
+    max-width: 9em;
+    max-height: 9em;
     position: relative;
     
     margin: auto;
     cursor: pointer;
 
+}
+
+.social {
+    padding: 5px;
 }
