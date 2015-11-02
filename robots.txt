@@ -1,0 +1,3 @@
+Sitemap: http://malo0140.github.io/portfolio/sitemap.xml
+
+User-agent: *
