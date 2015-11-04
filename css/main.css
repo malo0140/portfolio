@@ -30,15 +30,15 @@ body {
 }
 
 h1 {
+   
     text-align: center;
-    padding-left: 1em;
-    padding-top: 1.5em;  
+
 }
 
 p {
     margin: 0;
     text-align: center;
-    padding-left: 1em; 
+
 }
 
 .skip-links {
