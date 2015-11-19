@@ -32,13 +32,17 @@ body {
 h1 {
    
     text-align: center;
+}
 
+h2 {
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 p {
     margin: 0;
     text-align: center;
-
 }
 
 .skip-links {
@@ -92,7 +96,6 @@ a:active {
     text-align: center;
     display: block;
     transition: all .50s linear;
-
 }
 
 .nav ul li a:hover {
@@ -100,12 +103,10 @@ a:active {
     cursor: pointer;
 }
 
-
 .img-1-4 {
     margin: auto;
     padding: 1em; 
     cursor: pointer;
-
 }
 
 .circle {
@@ -120,8 +121,7 @@ a:active {
     height: 100px;
     border-radius: 50px;
     box-shadow: 0 0 7px rgba(0, 0, 0, .7);
-    background: url(../img/orange-and-teal-color-scheme.png) no-repeat;
-    
+    background: url(../img/orange-and-teal-color-scheme.png) no-repeat;   
 }
 
 .bgcolour {
@@ -155,7 +155,6 @@ a:active {
     
     margin: auto;
     cursor: pointer;
-
 }
 
 .social {
@@ -166,10 +165,7 @@ a:active {
     width: 100%;
     padding: 4em;
     margin: auto;
-
-    
-    min-height: 500px;
-    
+    min-height: 500px;  
 }
 
 .lightbox {
@@ -191,6 +187,10 @@ a:active {
 .lightbox:target {
     outline: none;
     display: block;
+}
+
+.lightboxtitle {
+    color: #fff;
 }
     
     
