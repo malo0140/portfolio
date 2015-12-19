@@ -37,12 +37,19 @@ body {
 h1 {
    
     text-align: center;
+    margin: 0;
 }
 
 h2 {
     color: #fff;
     list-style-type: none;
     text-decoration: none;
+}
+
+.second {
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 p {
