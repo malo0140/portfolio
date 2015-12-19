@@ -52,6 +52,12 @@ h2 {
     margin: 0;
 }
 
+.turtle {
+    width: 100%;
+    height: 20em;
+    display: block;
+}
+
 p {
     margin: 0;
     text-align: center;
