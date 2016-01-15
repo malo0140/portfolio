@@ -30,14 +30,14 @@ html {
 }
 
 .zoom {
+    -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
 }
 
 .zoom:hover {
+    -webkit-transform: scale(1.01);
     transform: scale(1.01);
 }
-
-
 
 body {
     margin: 0;
