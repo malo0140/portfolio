@@ -253,6 +253,10 @@ a:active {
     line-height: 1.45;
 }
 
+.nowrap {
+    white-space: nowrap;
+}
+
 .embed {
     position: relative;
 }
@@ -261,4 +265,5 @@ a:active {
     width: 100%;
     height: 100%;
     position: inherit;
+    border: solid 1px black;
 }
