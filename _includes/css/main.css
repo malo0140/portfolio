@@ -19,9 +19,25 @@ html {
 }
 
 .img-flex {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
+
+.img-large {
+    display: block;
+    width: 100%;
+    height: 30em;
+}
+
+.zoom {
+    transition: all .25s ease-in-out;
+}
+
+.zoom:hover {
+    transform: scale(1.01);
+}
+
+
 
 body {
     margin: 0;
@@ -35,7 +51,6 @@ body {
 }
 
 h1 {
-   
     text-align: center;
     margin: 0;
 }
@@ -193,8 +208,9 @@ a:active {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(112, 122, 131, 1);
     text-align: left;
+    overflow-y: scroll;
 }
 
 .lightbox img {
@@ -215,7 +231,4 @@ a:active {
     text-decoration: none;
     color: #fff;
     list-style-type: none;
-    
-}
-    
-    
+}   
