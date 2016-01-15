@@ -46,6 +46,8 @@ html {
 
 .center {
     text-align: center;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 body {
@@ -173,7 +175,7 @@ a:active {
 }
 
 .info {
-    height: 70vh;
+    height: 100%;
     width: 90%;
     margin: auto;
     padding: 6em;
@@ -217,9 +219,10 @@ a:active {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(225, 225, 225, 1);
     text-align: left;
     overflow-y: scroll;
+    text-decoration: none !important;
 }
 
 .lightbox img {
@@ -240,4 +243,9 @@ a:active {
     text-decoration: none;
     color: black;
     list-style-type: none;
-}   
+} 
+
+.text {
+    width: auto;
+    line-height: 1.45;
+}
