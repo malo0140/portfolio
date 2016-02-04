@@ -168,9 +168,23 @@ a:active {
     
     width: 100px;
     height: 100px;
-    border-radius: 50px;
-    box-shadow: 0 0 7px rgba(0, 0, 0, .7);
-    background: url(../img/me.jpg) center no-repeat;   
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.header img {
+    float: left;
+    width: 35px;
+    height: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.header h1 {
+    position: relative;
 }
 
 .bgcolour {
@@ -225,6 +239,7 @@ a:active {
     text-decoration: none !important;
     z-index: 2;
     overflow: auto;
+    
 }
 
 .lightbox img {
@@ -255,7 +270,7 @@ a:active {
 .text {
     width: auto;
     line-height: 1.45;
-    padding: 0;
+    padding-top: 10px;
 }
 
 .nowrap {
@@ -289,8 +304,7 @@ a:active {
 
 .email {
     color: #fff;
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 
 h5 {
