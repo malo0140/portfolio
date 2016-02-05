@@ -315,10 +315,11 @@ h5 {
 
 .img6 {
      width: 80%;
-    height: 70%;
+    height: 100%;
 
-    display: inline-block;
+    display: block;
     align-content: center;
+    left: 5em;
     margin: 0;
     padding-left: 10em;
 }
